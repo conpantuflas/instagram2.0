@@ -1,0 +1,88 @@
+body{
+    font-family: 'Roboto-type', sans-serif;
+    background-color: black;
+}
+#tarjetaPricipal{
+    width: 500px;
+    height: 600px;
+    background-color: white;
+    margin: 0 auto;
+}
+/*-----------------------header----------------------------*/
+#nameTagUsuario{
+    height: 3rem;
+    width: 100%;
+    display: flex;
+}
+#htmlLogo{
+    width: 1.5rem;
+    margin: 0.3rem;
+}
+h1{
+ font-size: 1.1rem;
+ margin-top: 0.5rem;
+ margin-bottom: 0;
+}
+#menu3puntos{
+    width: 0.5rem;
+    margin-top: 0.5rem;
+    margin-left:24.5rem;
+}
+
+#nameTagUsuario, p{
+    margin: 0;
+    font-size: 0.7rem;
+}
+#htmlMasNombre{
+    display: flex;
+    flex-flow: column wrap;
+}
+/*-----------sector de imagen central------------*/
+#imagen{
+    width: 500px;
+    height: 350px;
+    object-fit: cover;
+}
+
+/*------------------menu iconos-----------------*/
+#menuIconos{
+    display: flex;
+}
+#tresPrimerosIconos{
+    width: 29rem;
+    justify-content: space-around;
+    margin-left: 0.6rem;
+}
+#corazon{
+    width: 1.6rem;
+}
+#comentario{
+    width: 1.6rem;
+}
+#compartir{
+    width: 1.6rem;
+}
+#guardado{
+    width: 1.2rem;
+    margin-right: 0.5rem;
+}
+
+/*----------------------estadoDeNotificaciones--------------------*/
+
+#estadoDeNotificaciones{
+    display: flex;
+    flex-direction: row;
+    margin-left: 0.3rem;
+}
+#estadoDeNotificaciones > p , strong{
+    font-size: 1rem;
+    margin:0.6rem 0.3rem 0.6rem 0.45rem;
+}
+
+/*-------------------------pieDePublicacion-----------------------*/
+
+#pieDePublicacion{
+    width: 29.5rem;
+    margin: 0 auto;
+    text-align: justify;
+}
